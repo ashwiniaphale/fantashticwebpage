@@ -1,0 +1,123 @@
+
+body {
+  background-image: url("finalbackground.jpg");
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align:center;
+  color: black;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+h2 {
+  text-align:center;
+  color: black;
+}
+
+table {
+  position:absolute;
+  margin-top: 50px;
+  left: 320px;
+  border: 0;
+  border-spacing: 0;
+  width: 35%;
+}
+
+th, td {
+  text-align: left;
+  padding: 14px;
+}
+
+tr:nth-child(odd) {
+	  background: cadetblue;
+	}
+
+tr:nth-child(even) {
+    background-color: lightblue;
+  }
+
+.poem{
+    position: absolute;
+    top: 530px;
+    margin-left: 35px;
+    width:15%;
+    padding: 4px;
+    background-color: lightblue;
+    color: black;
+    text-align: center;
+  }
+
+a.highlight:hover {
+    color: red;
+  }
+
+ul, ol{
+  text-align: left;
+}
+.list{
+      position: absolute;
+      margin-left: 900px;
+      margin-top: 50px;
+      width:35%;
+      background-color: cadetblue;
+      color: black;
+      text-align: left;
+  }
+
+  .education{
+        position: absolute;
+        left:320px;
+        top: 400px;
+        width:35%;
+        background-color: cadetblue;
+        color: black;
+        text-align: left;
+    }
+
+span {
+    color: red;
+    font-weight: bold;
+}
+
+header{
+  margin-top: -20px;
+  top:500px;
+  width:102%;
+  background-color: lightblue;
+  padding:4px;
+  text-align: center;
+}
+
+.nav {
+        width: 20%;
+        background: cadetblue;
+    }
+
+.nav, .section {
+        float: left;
+        padding: 20px;
+        min-height: 170px;
+        box-sizing: border-box;
+    }
+
+.section {
+    width: 80%;
+    }
+
+footer{
+  padding: 4px;
+  width:100%;
+  position: absolute;
+  bottom:-4px;
+  left:1px;
+  background-color: lightblue;
+  color:black;
+  text-align: center;
+}
